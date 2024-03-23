@@ -6,6 +6,7 @@ import Signup from './pages/Signup.jsx'
 import About from './pages/About.jsx'
 import Signin from './pages/Signin.jsx'
 import Header from './components/Header.jsx'
+import Content from './pages/Content.jsx'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Header/>
       <Routes>
         <Route path='/' element={<Home/>} />
+        <Route path='/content' element={<Content/>}/>
         <Route path='/about' element={<About/>} />
         <Route path='/profile' element={<Profile/>} />
         <Route path='/signin' element={<Signin/>} />
