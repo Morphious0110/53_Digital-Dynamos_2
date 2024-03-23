@@ -7,6 +7,7 @@ import About from './pages/About.jsx'
 import Signin from './pages/Signin.jsx'
 import Header from './components/Header.jsx'
 import Content from './pages/Content.jsx'
+import ChatBot from './pages/ChatBot.jsx'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <BrowserRouter>
       <Header/>
       <Routes>
+        <Route path='/ChatBot' element={<ChatBot />}/>
         <Route path='/' element={<Home/>} />
         <Route path='/content' element={<Content/>}/>
         <Route path='/about' element={<About/>} />

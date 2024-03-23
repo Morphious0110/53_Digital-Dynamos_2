@@ -49,31 +49,24 @@ function Header() {
               } md:pb-0 md:flex md:justify-end md:flex-row`}
             >
               {" "}
-              {/* Reduce padding */}
               <Link
                 to={"profile"}
-                href="#"
                 className="px-2 py-1 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-2 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
               >
                 Profile
               </Link>{" "}
-              {/* Reduce padding */}
               <Link
                 to={"Sign In"}
-                href="#"
                 className="px-2 py-1 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-2 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
               >
                 Sign In
               </Link>{" "}
-              {/* Reduce padding */}
               <Link
                 to={"About"}
-                href="#"
                 className="px-2 py-1 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-2 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
               >
                 About
               </Link>{" "}
-              {/* Reduce padding */}
             </nav>
           </div>
         </div>
