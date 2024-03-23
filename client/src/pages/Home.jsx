@@ -20,6 +20,7 @@ function Home() {
       <div className=' text-center mx-auto  mt-5'>
         <h2 className=' text-4xl font-bold'>Features</h2>
       </div>
+      
     
     </>
   )
