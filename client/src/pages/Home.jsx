@@ -7,11 +7,11 @@ function Home() {
   return (
     <>
       <section>
-        <div className="header">
+        <div className="header bg-green-500 text-white">
           <div className="heading">
-            <h1>GreenGrowHub</h1>
+            <h1 className="font-bold">GreenGrowHub</h1>
             <p>
-              A one stop platform to check the health of your plant effectively
+            Nurturing Nature, Empowering Growth
             </p>
           </div>
           <div className="headerImg">
@@ -26,21 +26,15 @@ function Home() {
       <div className=" md:flex mx-auto p-10 gap-10 ">
         <div>
           <p className=" pr-10 pt-5  text-lg ">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit esse
-            praesentium consequuntur officiis fugiat necessitatibus id sit saepe
-            quaerat adipisci recusandae corrupti doloribus quis asperiores,
-            culpa consequatur voluptatem dignissimos? Numquam! Lorem ipsum dolor
-            sit amet consectetur adipisicing elit. Reprehenderit repellat
-            consectetur molestiae quae quam temporibus ratione nihil quos
-            molestias, quisquam consequuntur sunt, reiciendis atque similique.
-            Obcaecati explicabo non itaque corrupti.
+            
+GreenGrowHub: Your Plant Care Partner. Easily monitor plant health with image uploads. Get personalized fertilizer recommendations and locate nearby labs. Our chatbot offers expert advice on-demand. Join our thriving community today for greener thumbs tomorrow.
           </p>
         </div>
       </div>
       <hr />
 
       <div className=" text-center mx-auto  mt-5">
-        <h2 className=" text-4xl font-bold">Features</h2>
+        <h2 className=" text-4xl font-bold text-green-500">Features</h2>
       </div>
       <div className="features">
         <div className="chatBot">
