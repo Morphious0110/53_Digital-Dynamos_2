@@ -1,6 +1,8 @@
 import React from 'react';
+import { Navigate, useNavigate } from 'react-router-dom';
 
-function Card({ heading, description, imageUrl }) {
+function Card({ title,heading, description, imageUrl }) {
+  const Navigate = useNavigate()
   return (
     <>
       <div className="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
@@ -24,6 +26,7 @@ function Card({ heading, description, imageUrl }) {
             className="select-none rounded-lg bg-green-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
             type="button"
             data-ripple-light="true"
+            onClick={()=>Navigate(`/${title}`)}
           >
             Read More
           </button>

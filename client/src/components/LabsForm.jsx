@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import axios from "axios";
 
-const FertilizerShop = () => {
+const LabsForm = () => {
   const [formData, setFormData] = useState({
     city: "",
   });
@@ -67,7 +67,7 @@ const FertilizerShop = () => {
               <iframe
                 width="100%"
                 height="600"
-                src={`https://maps.google.com/maps?width=100%&height=600&hl=en&q=fertilizer+and+seed+shop+${formData.city}&ie=UTF8&t=&z=14&iwloc=B&output=embed&zoom=0`}
+                src={`https://maps.google.com/maps?width=100%&height=600&hl=en&q=soil+testing+labs+${formData.city}&ie=UTF8&t=&z=14&iwloc=B&output=embed&zoom=0`}
               >
                 <a href="https://www.maps.ie/map-my-route/">Plot a route map</a>
               </iframe>
@@ -83,4 +83,4 @@ const FertilizerShop = () => {
   );
 };
 
-export default FertilizerShop;
+export default LabsForm;
