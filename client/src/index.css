@@ -21,3 +21,28 @@
 .features .fertilizerPredictor:nth-child(2n) {
   margin-right: 20px; /* Adjust margin between cards within the rows */
 }
+.header {
+    background-color: #3eeb24bb;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.heading {
+    width: 654px;
+    height: 257px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.headerImg {
+    height: 230px;
+    width: 650px;
+}
+.heading h1 {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}

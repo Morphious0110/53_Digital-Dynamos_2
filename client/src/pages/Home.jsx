@@ -1,12 +1,29 @@
 import React from "react";
 import image1 from "../assets/1.jpg";
 import Card from "../components/Card";
+import Footer from "../components/Footer";
 import "../index.css";
 function Home() {
   return (
     <>
+      <section>
+        <div className="header">
+          <div className="heading">
+            <h1>GreenGrowHub</h1>
+            <p>
+              A one stop platform to check the health of your plant effectively
+            </p>
+          </div>
+          <div className="headerImg">
+            {" "}
+            <img
+              src="https://myplantin.com/_next/image?url=https%3A%2F%2Fstrapi.myplantin.com%2FDiseases_illustration_a772d9dc34.webp&w=1920&q=75"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
       <div className=" md:flex mx-auto p-10 gap-10 ">
-        <img src={image1} className=" h-80  rounded-2xl" alt="plant" />
         <div>
           <p className=" pr-10 pt-5  text-lg ">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit esse
@@ -55,6 +72,7 @@ function Home() {
           />
         </div>
       </div>
+      <Footer />
     </>
   );
 }
