@@ -39,6 +39,7 @@ GreenGrowHub: Your Plant Care Partner. Easily monitor plant health with image up
       <div className="features">
         <div className="chatBot">
           <Card
+          title = "chatBot"
             heading="Chat bot"
             description="Have any queries? Dont worry out 24x7 Chat Bot is here to resolve all of your queries"
             imageUrl="https://nordvpn.com/wp-content/uploads/blog-featured-what-is-chatbot.svg"
@@ -46,6 +47,7 @@ GreenGrowHub: Your Plant Care Partner. Easily monitor plant health with image up
         </div>
         <div className="ImageUpload">
           <Card
+          title = "ImageUpload"
             heading="Fertilizer Predictor"
             description="With the help of our AI predict which fertilizers are suitalble for your plants"
             imageUrl="https://eos.com/wp-content/uploads/2023/11/components-of-different-types-of-fertilizers.jpg-768x384.webp"
@@ -53,6 +55,7 @@ GreenGrowHub: Your Plant Care Partner. Easily monitor plant health with image up
         </div>
         <div className="LabsNearMe">
           <Card
+          title="labsnearme"
             heading="Labs near me"
             description="Find laboratories near your house "
             imageUrl="https://www.darwinchambers.com/wp-content/uploads/plant-growth-rooms.jpg"
@@ -60,6 +63,7 @@ GreenGrowHub: Your Plant Care Partner. Easily monitor plant health with image up
         </div>
         <div className="fertilizerPredictor">
           <Card
+          title="fertiliser"
             heading="Upload your plant"
             description="Check the health of your plants by just uploading a picture of it"
             imageUrl="https://us.123rf.com/450wm/amenic181/amenic1811604/amenic181160400044/57090027-arroser-une-jeune-plante-la-main-farmer.jpg?ver=6"
