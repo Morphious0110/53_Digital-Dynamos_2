@@ -9,8 +9,7 @@ const ChatBot = () => {
       onMessageReceived: function({ message }) {
         // Callback function to handle incoming messages
         console.log("Received message:", message);
-        // You can add custom logic here to respond back to the user
-        // For example, you can check the message content and send a response
+
         if (message === "Hello") {
           window.kommunicate.sendMessage({
             message: "Hi there! How can I assist you today?",
